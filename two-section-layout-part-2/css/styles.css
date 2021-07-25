@@ -8,3 +8,46 @@ body {
   margin: 0;
   padding: 0;
 }
+
+header,
+section {
+  padding: 40px;
+}
+
+header,
+.section-two {
+  color: white;
+  background-color: #2e354f;
+}
+.content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+h2 {
+  color: #ef5839;
+}
+a {
+  color: #ef5839;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 25px;
+  font-weight: bold;
+  text-decoration: none;
+  margin-right: 5px;
+}
+
+.btn-orange {
+  background-color: #ef5839;
+  color: white;
+}
+.btn-white {
+  background-color: white;
+  color: black;
+}
