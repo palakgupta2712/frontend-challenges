@@ -28,3 +28,44 @@ a {
 .accent-color {
   color: #ffe600;
 }
+
+header,
+section {
+  padding: 50px;
+}
+header {
+  background-color: #ffe600;
+  color: #000;
+}
+/* section styles */
+.section-one {
+  color: #fff;
+  background-color: #000;
+}
+
+.section-two a {
+  color: #000;
+}
+
+/* button styles */
+.btn {
+  display: inline-block;
+  padding: 15px 30px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.section-one .btn {
+  background-color: #ffe600;
+  color: #000;
+}
+.section-one .btn:hover {
+  background-color: #fff;
+}
+.section-two .btn {
+  background-color: #000;
+  color: #ffe600;
+}
+.section-two .btn:hover {
+  background: #ffe600;
+  color: black;
+}
